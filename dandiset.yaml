@@ -2,21 +2,42 @@
 # It can be edited online at https://dandiarchive.org/dandiset/000129
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.5.1/context.json
-about: []
-access: []
+about:
+- identifier: UBERON:0001384
+  name: Primary motor cortex
+  schemaKey: Anatomy
+access:
+- contactPoint:
+    schemaKey: ContactPoint
+  schemaKey: AccessRequirements
+  status: dandi:OpenAccess
 assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: Pei, Felix (2021) Macaque motor cortex spiking activity during self-paced
+citation: O'Doherty, Joseph (2021) Macaque motor cortex spiking activity during self-paced
   reaching (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000129/draft
 contributor:
 - affiliation: []
   email: felp8484@gmail.com
-  includeInCitation: true
+  includeInCitation: false
   name: Pei, Felix
   roleName:
   - dcite:ContactPerson
+  - dcite:Maintainer
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/043mz5j54
+    name: University of California, San Francisco
+    schemaKey: Affiliation
+  - name: Neuralink Corp.
+    schemaKey: Affiliation
+  identifier: 0000-0001-8175-5699
+  includeInCitation: true
+  name: O'Doherty, Joseph
+  roleName:
+  - dcite:Author
+  - dcite:DataCollector
   schemaKey: Person
 dateCreated: '2021-08-21T19:27:11.638113+00:00'
 description: This dataset contains sorted unit spiking times and behavioral data from
@@ -28,13 +49,28 @@ description: This dataset contains sorted unit spiking times and behavioral data
 ethicsApproval: []
 id: DANDI:000129/draft
 identifier: DANDI:000129
-keywords: []
-license: []
+keywords:
+- Neural Latents Benchmark
+license:
+- spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000129/versions/draft/assets/
 name: Macaque motor cortex spiking activity during self-paced reaching
 protocol: []
-relatedResource: []
+relatedResource:
+- identifier: "10.5281/zenodo.3854034\t"
+  name: Nonhuman primate reaching with multichannel sensorimotor cortex electrophysiology
+  relation: dcite:IsDescribedBy
+  repository: Zenodo
+  schemaKey: Resource
+  url: https://doi.org/10.5281/zenodo.3854034
+- identifier: 10.1088/1741-2552/aa9e95
+  name: Superior arm-movement decoding from cortex with a new, unsupervised-learning
+    algorithm
+  relation: dcite:IsDescribedBy
+  repository: Journal of Neural Engineering
+  schemaKey: Resource
+  url: https://doi.org/10.1088/1741-2552/aa9e95
 repository: https://dandiarchive.org/
 schemaKey: Dandiset
 schemaVersion: 0.5.1
