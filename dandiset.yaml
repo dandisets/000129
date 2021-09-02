@@ -12,9 +12,32 @@ access:
   schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: electrophysiological approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: spike sorting technique
+    schemaKey: MeasurementTechniqueType
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  - name: analytical technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 50965512
+  numberOfFiles: 2
+  numberOfSubjects: 1
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9544
+    name: Rhesus monkey
+    schemaKey: SpeciesType
+  variableMeasured:
+  - Units
+  - ElectrodeGroup
+  - ProcessingModule
 citation: O'Doherty, Joseph (2021) Macaque motor cortex spiking activity during self-paced
   reaching (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000129/draft
 contributor:
