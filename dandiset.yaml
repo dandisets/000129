@@ -5,11 +5,9 @@
 about:
 - identifier: UBERON:0001384
   name: Primary motor cortex
-  schemaKey: Anatomy
 access:
 - contactPoint:
     schemaKey: ContactPoint
-  schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
   approach:
@@ -38,8 +36,8 @@ assetsSummary:
   - Units
   - ElectrodeGroup
   - ProcessingModule
-citation: O'Doherty, Joseph (2021) Macaque motor cortex spiking activity during self-paced
-  reaching (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000129/draft
+citation: 'O''Doherty, Joseph (2021) MC_RTT: macaque motor cortex spiking activity
+  during self-paced reaching (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000129/draft'
 contributor:
 - affiliation: []
   email: felp8484@gmail.com
@@ -74,25 +72,24 @@ id: DANDI:000129/draft
 identifier: DANDI:000129
 keywords:
 - Neural Latents Benchmark
+- NLB
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000129/versions/draft/assets/
-name: Macaque motor cortex spiking activity during self-paced reaching
+name: 'MC_RTT: macaque motor cortex spiking activity during self-paced reaching'
 protocol: []
 relatedResource:
 - identifier: "10.5281/zenodo.3854034\t"
   name: Nonhuman primate reaching with multichannel sensorimotor cortex electrophysiology
   relation: dcite:IsDescribedBy
   repository: Zenodo
-  schemaKey: Resource
   url: https://doi.org/10.5281/zenodo.3854034
 - identifier: 10.1088/1741-2552/aa9e95
   name: Superior arm-movement decoding from cortex with a new, unsupervised-learning
     algorithm
   relation: dcite:IsDescribedBy
   repository: Journal of Neural Engineering
-  schemaKey: Resource
   url: https://doi.org/10.1088/1741-2552/aa9e95
 repository: https://dandiarchive.org/
 schemaKey: Dandiset
