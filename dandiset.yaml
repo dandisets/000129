@@ -38,7 +38,7 @@ assetsSummary:
   - Units
   - ElectrodeGroup
   - ProcessingModule
-citation: 'O''Doherty, Joseph (2021) MC_RTT: macaque motor cortex spiking activity
+citation: 'O''Doherty, Joseph (2022) MC_RTT: macaque motor cortex spiking activity
   during self-paced reaching (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000129/draft'
 contributor:
 - affiliation: []
@@ -53,8 +53,6 @@ contributor:
   - identifier: https://ror.org/043mz5j54
     name: University of California, San Francisco
     schemaKey: Affiliation
-  - name: Neuralink Corp.
-    schemaKey: Affiliation
   identifier: 0000-0001-8175-5699
   includeInCitation: true
   name: O'Doherty, Joseph
@@ -63,12 +61,13 @@ contributor:
   - dcite:DataCollector
   schemaKey: Person
 dateCreated: '2021-08-21T19:27:11.638113+00:00'
-description: This dataset contains sorted unit spiking times and behavioral data from
-  a macaque performing a self-paced reaching task. In the experimental task, the subject
-  reached between targets randomly selected from an 8x8 grid without gaps or pre-movement
-  delay intervals. Neural activity was recorded from an electrode array implanted
-  in the primary motor cortex. Finger position, cursor position, and target position
-  were also recorded during the experiment.
+description: 'This dataset contains sorted unit spiking times and behavioral data
+  from a macaque performing a self-paced reaching task. In the experimental task,
+  the subject reached between targets randomly selected from an 8x8 grid without gaps
+  or pre-movement delay intervals. Neural activity was recorded from an electrode
+  array implanted in the primary motor cortex. Finger position, cursor position, and
+  target position were also recorded during the experiment. Provided as part of the
+  Neural Latents Benchmark: https://neurallatents.github.io.'
 ethicsApproval: []
 id: DANDI:000129/draft
 identifier: DANDI:000129
