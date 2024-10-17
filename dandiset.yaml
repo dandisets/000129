@@ -38,7 +38,7 @@ assetsSummary:
   - Units
   - ElectrodeGroup
   - ProcessingModule
-citation: 'O''Doherty, Joseph (2022) MC_RTT: macaque motor cortex spiking activity
+citation: 'O''Doherty, Joseph (2024) MC_RTT: macaque motor cortex spiking activity
   during self-paced reaching (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000129/draft'
 contributor:
 - affiliation: []
@@ -61,6 +61,7 @@ contributor:
   - dcite:DataCollector
   schemaKey: Person
 dateCreated: '2021-08-21T19:27:11.638113+00:00'
+datePublished: '2024-10-17T14:44:59.848372+00:00'
 description: 'This dataset contains sorted unit spiking times and behavioral data
   from a macaque performing a self-paced reaching task. In the experimental task,
   the subject reached between targets randomly selected from an 8x8 grid without gaps
@@ -80,6 +81,18 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000129/versions/draft/assets/
 name: 'MC_RTT: macaque motor cortex spiking activity during self-paced reaching'
 protocol: []
+publishedBy:
+  endDate: '2024-10-17T14:44:59.848372+00:00'
+  id: urn:uuid:96ab35ff-6d19-4b4d-baa2-c5e80bb5f949
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2024-10-17T14:44:59.848372+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:e43a34c0-acca-46dc-b1a3-99d85a2a1c8b
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - identifier: "10.5281/zenodo.3854034\t"
   name: Nonhuman primate reaching with multichannel sensorimotor cortex electrophysiology
@@ -94,7 +107,7 @@ relatedResource:
   repository: Journal of Neural Engineering
   schemaKey: Resource
   url: https://doi.org/10.1088/1741-2552/aa9e95
-repository: https://dandiarchive.org/
+repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.0
 studyTarget: []
