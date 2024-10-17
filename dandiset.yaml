@@ -39,7 +39,7 @@ assetsSummary:
   - ElectrodeGroup
   - ProcessingModule
 citation: 'O''Doherty, Joseph (2024) MC_RTT: macaque motor cortex spiking activity
-  during self-paced reaching (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000129/draft'
+  during self-paced reaching (Version 0.241017.1444) [Data set]. DANDI archive. https://doi.org/10.48324/dandi.000129/0.241017.1444'
 contributor:
 - affiliation: []
   email: felp8484@gmail.com
@@ -69,8 +69,9 @@ description: 'This dataset contains sorted unit spiking times and behavioral dat
   array implanted in the primary motor cortex. Finger position, cursor position, and
   target position were also recorded during the experiment. Provided as part of the
   Neural Latents Benchmark: https://neurallatents.github.io.'
+doi: 10.48324/dandi.000129/0.241017.1444
 ethicsApproval: []
-id: DANDI:000129/draft
+id: DANDI:000129/0.241017.1444
 identifier: DANDI:000129
 keywords:
 - Neural Latents Benchmark
@@ -78,7 +79,7 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000129/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000129/0.241017.1444/assets.yaml
 name: 'MC_RTT: macaque motor cortex spiking activity during self-paced reaching'
 protocol: []
 publishedBy:
@@ -111,6 +112,6 @@ repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.0
 studyTarget: []
-url: https://dandiarchive.org/dandiset/000129/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000129/0.241017.1444
+version: 0.241017.1444
 wasGeneratedBy: []
